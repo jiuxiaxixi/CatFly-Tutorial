@@ -1,0 +1,73 @@
+{
+    "author": "XiaoYuan Zhang <569hmq@gmail.com>",
+    "description": "This is a sample book created by gitbook",
+    "extension": null,
+    "generator": "site",
+    "output": null,
+    "styles": {
+        "website": "styles/website.css"
+    },
+    "plugins": [
+        "codesnippet",
+        "image-captions",
+        "splitter",
+        "expandable-chapters-small",
+        "theme-comscore",
+        "-highlight",
+		"anchor-navigation-ex",
+		"simple-page-toc",
+        "tbfed-pagefooter",
+        "-highlight", "prism", 
+        "prism-themes",
+        "-sharing"
+    ],
+    "pluginsConfig": {
+        "pluginsConfig": {
+            "fontsettings": {
+                "theme": "white",
+                "family": "sans", 
+                "size": 2   
+            }
+        },
+    "theme-default": {
+            "showLevel": false
+        },
+ 	"anchor-navigation-ex": {
+	"showLevel": true,
+    	"associatedWithSummary": true,
+    	"printLog": false,
+    	"multipleH1": true,
+    	"mode": "float",
+    	"showGoTop":true,
+    	"float": {
+        	"showLevelIcon": false,
+        	"level1Icon": "fa fa-hand-o-right",
+        	"level2Icon": "fa fa-hand-o-right",
+        	"level3Icon": "fa fa-hand-o-right"
+    	},
+    	"pageTop": {
+        "showLevelIcon": false,
+        "level1Icon": "fa fa-hand-o-right",
+        "level2Icon": "fa fa-hand-o-right",
+        "level3Icon": "fa fa-hand-o-right"
+    	}
+        },
+	"simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        },
+        "theme-comscore": {
+            "showLevel": true
+        },
+        "image-captions": {
+            "caption": "图片 - _CAPTION_"
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy Zhang XiaoYuan 2019",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    },
+    "title": "CatFly 测试平台教程",
+    "variables": {}
+}
