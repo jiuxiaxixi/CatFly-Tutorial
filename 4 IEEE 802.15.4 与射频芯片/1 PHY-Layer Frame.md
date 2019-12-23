@@ -1,6 +1,6 @@
 # PHY-Layer Frame Structure (PPDU)
 
-![IEEE 802.15.4 Frame Format - PHY-Layer Frame Structure (PPDU)](C:\Users\569hm\code\CatFly-Tutorial\附件\image-20191222155613983.png)
+![IEEE 802.15.4 Frame Format - PHY-Layer Frame Structure (PPDU)](..\附件\image-20191222155613983.png)
 
 ##  Synchronization Header (SHR)
 
