@@ -23,7 +23,7 @@ An automated ED measurement is started if an SHR is detected. The end of the aut
 
 ## Data Interpretation
 
-![Register 0x07 (PHY_ED_LEVEL)](C:\Users\569hm\code\CatFly-Tutorial\附件\image-20191222170930351.png)
+![Register 0x07 (PHY_ED_LEVEL)](..\附件\image-20191222170930351.png)
 
 - Bit [7:0] - ED_LEVEL
 The minimum ED value (ED_LEVEL = 0) indicates receiver power less than or equal to
@@ -32,7 +32,7 @@ RSSI_BASE_VAL. The range is 84 dB with a resolution of 1 dB and an absolute accu
 0xFF signals that a measurement has never been started yet (reset value).
 The measurement duration is 8 symbol periods (128 µs) for a data rate of 250 kb/s
 
-![Mapping between Received Input Power and ED Value](C:\Users\569hm\code\CatFly-Tutorial\附件\image-20191222170852053.png)
+![Mapping between Received Input Power and ED Value](..\附件\image-20191222170852053.png)
 
 The PHY_ED_LEVEL is an 8-bit register. The ED value of the AT86RF231 has a valid range from 0x00 to 0x54 with a resolution of 1 dB. All other values do not occur; a value of 0xFF indicates the reset value. A value of PHY_ED_LEVEL = 0 indicates that the measured energy is less than -91 dBm
 

@@ -8,7 +8,7 @@ The LQI measurement of the AT86RF231 is implemented as a measure of the link qua
 
 
 
-![Conditional Packet Error Rate versus LQI](C:\Users\569hm\code\CatFly-Tutorial\附件\image-20191222171430569.png)
+![Conditional Packet Error Rate versus LQI](..\附件\image-20191222171430569.png)
 
 The values are taken from received frames of PSDU length of 20 octets on transmission channels with reasonable low multipath delay spreads. If the transmission channel characteristic has higher multipath delay spread than assumed in the example, the PER is slightly higher for certain LQI value. Since the packet error rate is a statistical value, the PER shown in “Conditional Packet Error Rate versus LQI”  is based on a huge number of transactions. A reliable estimation of the packet error rate cannot be based on a single or a small number of LQI values.
 

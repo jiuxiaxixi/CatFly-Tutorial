@@ -50,7 +50,7 @@ The radio transceiver is a true SPI-to-antenna solution. All RF-critical compone
 
 ## Microcontroller Interface
 
-![image-20191220122350977](C:\Users\569hm\code\CatFly-Tutorial\附件\image-20191220122350977.png)
+![image-20191220122350977](..\附件\image-20191220122350977.png)
 
 | Signal | Description                                                  |
 | ------ | ------------------------------------------------------------ |

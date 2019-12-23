@@ -1,6 +1,6 @@
 # MAC-Layer Frame Structure (MPDU)
 
-![image-20191222160027401](C:\Users\569hm\code\CatFly-Tutorial\附件\image-20191222160027401.png)
+![image-20191222160027401](..\附件\image-20191222160027401.png)
 
 
 
@@ -14,7 +14,7 @@ The MAC header consists of the Frame Control Field (FCF), a sequence number, and
 
 The FCF consists of 16 bits, and occupies the first two octets of the MPDU or PSDU, respectively.
 
-![IEEE 802.15.4-2006 Frame Control Field (FCF)](C:\Users\569hm\code\CatFly-Tutorial\附件\image-20191222160109522.png)
+![IEEE 802.15.4-2006 Frame Control Field (FCF)](..\附件\image-20191222160109522.png)
 
 * Bit [2:0]: describes the frame type
 
