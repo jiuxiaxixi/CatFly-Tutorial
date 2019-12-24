@@ -10,7 +10,7 @@
 | [MySniffer](http://202.202.68.156:8001/f/a481d871f7b146a38052/?dl=1) | 节点嗅探器接口       |
 | [Wireshark](http://202.202.68.156:8001/f/bb9a818bd9b0445294db/?dl=1) | 抓取IEEE 802.15.4 包 |
 | [AT86RF231.pdf](..\附件\AT86RF231.pdf)                       | 芯片手册             |
-| [code.zip](..\附件\code.zip)                                 | 代码                 |
+| [wsn_code.zip](..\wsn_code.zip)                              | 代码                 |
 |                                                              |                      |
 
 
