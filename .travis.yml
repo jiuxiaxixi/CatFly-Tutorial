@@ -1,0 +1,24 @@
+sudo: false
+language: node_js
+node_js:
+  - 10 # use nodejs v10 LTS
+cache: npm
+branches:
+  only:
+    - master # build master branch only
+script:
+  - npm install gitbook-cli -g # install gitbook
+  - npm install -g gitbook-summary
+  - gitbook fetch 3.2.3 # fetch final stable version
+  - gitbook install # add any requested plugins in book.json
+  - book sm -i node_modules,_book # generate summary.md
+  - gitbook build . public # building static pages
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GH_TOKEN
+  keep-history: true
+  on:
+    branch: master
+  local-dir: public
